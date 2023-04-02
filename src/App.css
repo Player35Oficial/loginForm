@@ -1,3 +1,24 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+body {
+  background-color: var(--form-background);
+  color: var(--text-base);
+}
+
 #root {
-  margin: 0 auto;
+  margin: 40px 20px;
 }
