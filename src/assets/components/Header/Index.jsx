@@ -5,19 +5,17 @@ import { HeaderContainer, Logo, LogIn } from "./Styles";
 
 export default function Header() {
   return (
-    <>
-      <HeaderContainer>
-        <Logo>
-          <img src={logo} alt="logo" />
-        </Logo>
-        <LogIn>
-          <div>
-            <img src={login} alt="" />
-            <p>Faça seu login</p>
-          </div>
-          <p>Entre com suas informações de login.</p>
-        </LogIn>
-      </HeaderContainer>
-    </>
+    <HeaderContainer>
+      <Logo>
+        <img src={logo} alt="logo" />
+      </Logo>
+      <LogIn>
+        <div>
+          <img src={login} alt="" />
+          <p>Faça seu login</p>
+        </div>
+        <p>Entre com suas informações de login.</p>
+      </LogIn>
+    </HeaderContainer>
   );
 }

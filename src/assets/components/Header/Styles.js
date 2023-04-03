@@ -6,6 +6,12 @@ export const Logo = styled.div`
   display: flex;
   gap: 4px;
   color: var(--text-title);
+
+  img {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
 `;
 
 export const HeaderContainer = styled.header`
@@ -24,6 +30,13 @@ export const LogIn = styled.div`
     color: var(--text-title);
     display: flex;
     gap: 10px;
+    align-items: center;
+
+    img {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
   }
 
   > p {

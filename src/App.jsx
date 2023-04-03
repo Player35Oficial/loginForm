@@ -6,7 +6,6 @@ import Form from "./assets/components/Form/Index";
 function App() {
   return (
     <div className="App">
-      <Header />
       <Form />
     </div>
   );
