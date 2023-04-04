@@ -53,7 +53,15 @@ export const Form = styled.form`
     transition: 0.2s;
   }
 
-  
+  @media screen and (min-width: 768px) {
+    background-color: var(--form-background);
+    width: 572px;
+    height: 542px;
+    padding: 54px 120px;
+    border-radius: 4px;
+
+    place-content: center;
+  }
 `;
 
 export const Options = styled.div`

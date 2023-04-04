@@ -6,3 +6,19 @@ body {
   height: 100vh;
   position: relative;
 }
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("./assets/images/side-image.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    transition: 0.2s;
+  }
+
+  Form {
+    position: relative;
+    left: -25vw;
+    transition: 0.2s;
+  }
+}
