@@ -11,7 +11,7 @@ body {
   body {
     background-image: url("./assets/images/side-image.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     background-position: right;
     transition: 0.2s;
   }
@@ -20,5 +20,20 @@ body {
     position: relative;
     left: -25vw;
     transition: 0.2s;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  body {
+    background-image: url(/src/assets/images/side-image-2x.jpg);
+    background-size: auto;
+    background-position-y: -500px;
+  }
+}
+@media screen and (min-height: 1200px) {
+  body {
+    background-image: url(/src/assets/images/side-image-2x.jpg);
+    background-size: center;
+    background-position-y: bottom;
   }
 }

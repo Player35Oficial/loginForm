@@ -30,6 +30,11 @@ export const Form = styled.form`
     position: relative;
     p {
       text-align: start;
+      width: 100%;
+      span {
+        color: var(--primary-color);
+        text-align: end;
+      }
     }
   }
 
